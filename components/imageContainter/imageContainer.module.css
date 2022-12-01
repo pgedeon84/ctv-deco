@@ -1,0 +1,17 @@
+.cvt__imageContainer_wrapper h5 {
+    margin-top: 0.2rem;
+}
+
+
+.cvt__imageContainer_wrapper {
+    margin-bottom: 2rem;
+}
+
+.cvt__imageContainer_wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cvt__imageContainer_text {
+    color: var(--primary-color);
+}

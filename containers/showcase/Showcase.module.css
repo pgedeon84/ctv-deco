@@ -1,0 +1,14 @@
+.ctv__showcase {
+    margin-top: 4rem;
+    padding: 0 1rem;
+}
+
+.ctv__showcase_title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.ctv__showcase_button {
+    text-align: center;
+    margin-top: 4rem;
+}

@@ -1,0 +1,15 @@
+.ctv__aboutInfo {
+    padding: 2rem;
+}
+
+.ctv__aboutInfo_text {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+.ctv__aboutInfo_link {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    text-decoration: underline;
+}

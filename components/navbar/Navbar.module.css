@@ -1,0 +1,20 @@
+.cvt__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 0 1rem 1rem;
+}
+
+.cvt__navbar_links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.cvt__navbar_links__container {
+    display: none;
+}
+
+

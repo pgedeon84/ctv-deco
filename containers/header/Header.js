@@ -1,0 +1,67 @@
+import classes from "./Header.module.css";
+import Image from "next/image";
+import HOME from "../../public/Images/HOME.svg";
+import DECOR from "../../public/Images/DECOR.svg";
+
+const Header = ({ srcFront, srcMiddle, srcRear }) => {
+  const imgFront = {
+    border: 6,
+    borderColor: "#9584F3",
+    borderStyle: "solid",
+  };
+
+  const imgMiddle = {
+    border: 6,
+    borderColor: "#FF9898",
+    borderStyle: "solid",
+  };
+
+  const imgRear = {
+    border: 6,
+    borderColor: "#FFE8AD",
+    borderStyle: "solid",
+  };
+
+  return (
+    <div className={classes.ctv__header}>
+      <div className={classes.ctv__header_img__wrapper}>
+        <div className={classes.ctv__header_text_home}>
+          <Image src={HOME} alt="Home" />
+        </div>
+        <div className={classes.ctv__header_img__img_front}>
+          <Image
+            src={srcFront}
+            alt="Deco Picture"
+            width={213}
+            height={320}
+            style={imgFront}
+          />
+        </div>
+        <div className={classes.ctv__header_img__img_middle}>
+          <Image
+            src={srcMiddle}
+            alt="Deco Picture"
+            width={213}
+            height={320}
+            style={imgMiddle}
+          />
+        </div>
+        <div className={classes.ctv__header_img__img_rear}>
+          <Image
+            src={srcRear}
+            alt="Deco Picture"
+            width={340}
+            height={228}
+            style={imgRear}
+          />
+        </div>
+        <div className={classes.ctv__header_text_decor}>
+          <Image src={DECOR} alt="Decor" />
+          <span>Contact</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
