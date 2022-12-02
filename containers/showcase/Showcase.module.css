@@ -1,14 +1,42 @@
 .ctv__showcase {
-    margin-top: 4rem;
-    padding: 0 1rem;
+    margin: 3rem 0;
+    padding: 3rem 1rem;
+}
+
+.ctv__showcase_project__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .ctv__showcase_title {
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: 600;
+    margin-top: 0;
 }
 
 .ctv__showcase_button {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+
+    .ctv__showcase_title {
+        padding: 0 16rem;
+    }
+    .ctv__showcase_project__container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding-left: 12.8rem;
+        padding-right: 6rem;
+    }
+
+    .ctv__showcase_title {
+        font-size: 1.3rem;
+    }
 }

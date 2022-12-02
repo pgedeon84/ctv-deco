@@ -3,6 +3,7 @@
 :root {
   --primary-color: #463A86;
   --bg-color: #FFF1F8;
+  --accent-color: #f7c0ff;
 }
 
 html,
@@ -11,6 +12,7 @@ body {
   margin: 0;
   font-family: "Sora";
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,8 +22,12 @@ a {
 
 * {
   box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }

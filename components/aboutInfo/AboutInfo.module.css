@@ -1,5 +1,5 @@
 .ctv__aboutInfo {
-    padding: 2rem;
+    padding: 2rem 2rem;
 }
 
 .ctv__aboutInfo_text {
@@ -12,4 +12,24 @@
     color: var(--primary-color);
     font-size: 0.8rem;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 1100px) {
+    .ctv__aboutInfo {
+        padding: 4rem 22rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ctv__aboutInfo_text {
+        font-size: 1.6rem;
+        line-height: 1.9;
+    }
+
+    .ctv__aboutInfo_link {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
 }

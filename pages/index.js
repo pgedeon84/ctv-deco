@@ -11,11 +11,9 @@ const Home = () => {
     "https://firebasestorage.googleapis.com/v0/b/cvt-deco.appspot.com/o/4.webp?alt=media&token=4a8cd909-c3d0-4458-a80a-2b32c176b06a";
   return (
     <div>
-      <Navbar />
       <Header srcFront={frontPic} srcMiddle={middlePic} srcRear={rearPic} />
       <AboutInfo />
       <Showcase />
-      <Footer />
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.ctv__residential {
+    padding: 3rem 1rem;
+    background-color: var(--bg-color);
+}
+
+.ctv__residential_title {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.ctv__residential_button {
+    text-align: center;
+    margin-top: 4rem;
+}

@@ -12,16 +12,16 @@ const Navbar = () => {
     return (
       <ul>
         <li>
-          <Link href="#Welcome">Welcome</Link>
+          <Link href="/">Welcome</Link>
         </li>
         <li>
-          <Link href="#Residential">Residential</Link>
+          <Link href="/residential">Residential</Link>
         </li>
         <li>
-          <Link href="#About">About</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="#Contact">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     );
@@ -29,9 +29,9 @@ const Navbar = () => {
   return (
     <div className={classes.cvt__navbar}>
       <div className={classes.cvt__navbar_links}>
-        <div className={classes.cvt_navbar_logo}>
+        <div className={classes.cvt__navbar_logo}>
           <Link href="/">
-            <Image src={logo} alt="Logo" height={120} width={120} />
+            <Image src={logo} alt="Logo" />
           </Link>
         </div>
         <nav className={classes.cvt__navbar_links__container}>

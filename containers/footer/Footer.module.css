@@ -1,10 +1,15 @@
 .ctv__footer {
-    padding: 8rem 1rem .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 1rem .3rem;
     color: var(--primary-color);
+    /* background-color: var(--bg-color); */
 }
 
 .ctv__footer div {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 .ctv__footer div>p {
@@ -15,4 +20,25 @@
 .ctv__footer_author {
     font-size: 12px;
     padding-top: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .ctv__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 4rem 16rem .8rem;
+        gap: 2rem;
+
+    }
+
+    .ctv__footer_media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+
+    }
 }
